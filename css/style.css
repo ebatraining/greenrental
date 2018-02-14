@@ -351,11 +351,17 @@ h4{
 	line-height: 1.5;
 	font-size: 50%;
 }
+div.page4-sp{
+	display: none;
+		}
+div.page4-pc{
+	list-style: none;
+		
+	}
 
 .page_4{
 	width: 100%;
-	margin: 5% auto;
-	overflow: hidden;
+　　　overflow: hidden;
 }
 
 .room_4_1{
@@ -373,6 +379,7 @@ h4{
 	width:45%;
 	text-align: center;
 	font-size: 80%;
+	display: block;
 }
 
 
@@ -394,148 +401,130 @@ h5{
 	text-align: center;
 	font-size: 70%;
 }
-
-p.room_4_1text1{
-	float: left;
-	width: 30%;
-	margin: 3% 0 0 6%;
-	letter-spacing: 5px;
-	font-size: 50%;
+#boder{width:0.5px;
+	height: 200px;
+	margin-top: 125px;
 }
-
-p.room_4_1text2{
-	float: right;
-	width: 30%;
-	margin: 3% 9% 0 0;
-	text-align: left;
-	letter-spacing: 5px;
-	font-size: 50%;
+ul.tab-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font:inherit;
+	vertical-align: baseline;
+	text-align: center;
+	}
+.tab-menu li:hover {
+  color:#464646;
 }
+.tab-menu li.active{
+		color:#1D1B1B;
+		opacity: 1;
+	}
+.tab-menu li.active:hover {
+  color:#464646;
+}
+.tab-menu li{
+	position: relative;
+    background-color: #fff;
+    color: #bcbcbc;
+    display: inline-block;
+    padding: 20px 40px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 0;
+	font-size: 15px;
+}
+.tab-content {
+  background-color:#fff;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 5px;   
+  min-height:300px;
+}
+.line{
+    width: 0;
+    height: 7px;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+		
+	}
+		
+	
+.tab-menu li:hover {
+  color:#464646;
+}
+.tab-menu li.active{
+		color:#1D1B1B;
+		opacity: 1;
+	}
+.tab-menu li.active:hover {
+  color:#464646;
+}
+.tab-menu li{
+	position: relative;
+    background-color: #fff;
+    color: #bcbcbc;
+    display: inline-block;
+    padding: 20px 40px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 0;
+	font-size: 15px;
+}
+.tab-content {
+  background-color:#fff;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 5px;   
+  min-height:300px;
+}
+.line{
+    width: 0;
+    height: 7px;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+		
+	}
+.c1{
+	width: 80%;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
 
-.room_4_1img{
+.text1{
 	overflow: hidden;
-}
-
-img.img1{
-	width:10%;
-	float:left;
-	margin: 0 0 0 22%;
-}
-
-img.img2{
-	width:10%;
-	float:right;
-	margin: 0 16% 0 0;
-}
-
-.room_4_2{
-	width: 100%;
-	margin: 5% 0 0 0;
-	overflow: hidden;
-}
-
-p.room_4_2text1{
-	float: left;
-	width: 30%;
-	margin: 3% 0 0 6%;
-	letter-spacing: 5px;
+    border-style: none;
+	width: 80%;
+	margin: 0 0 0 15%;
+	letter-spacing: 4px;
+	line-height: 1.5;
 	font-size: 50%;
+	}
+.sample-img{
+		width: 50%;
+	    margin-left: 26%;
+	    
+	}
+
+img{
+	width:100%;
+	vertical-align: bottom;
 }
 
-p.room_4_2text2{
-	float: right;
-	width: 30%;
-	margin: 3% 9% 0 0;
-	text-align: left;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
 
-.room_4_2img{
-	overflow: hidden;
-}
 
-.room_4_3{
-	width: 100%;
-	margin: 5% 0 0 0;
-	overflow: hidden;
-}
-
-p.room_4_3text1{
-	float: left;
-	width: 30%;
-	margin: 3% 0 0 6%;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-p.room_4_3text2{
-	float: right;
-	width: 30%;
-	margin: 3% 9% 0 0;
-	text-align: left;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-.room_4_3img{
-	overflow: hidden;
-}
-
-.room_4_4{
-	width: 100%;
-	margin: 5% 0 0 0;
-	overflow: hidden;
-}
-
-p.room_4_4text1{
-	float: left;
-	width: 30%;
-	margin: 3% 0 0 6%;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-p.room_4_4text2{
-	float: right;
-	width: 30%;
-	margin: 3% 9% 0 0;
-	text-align: left;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-.room_4_4img{
-	overflow: hidden;
-}
-
-.room_4_5{
-	width: 100%;
-	margin: 5% 0 0 0;
-	overflow: hidden;
-}
-
-p.room_4_5text1{
-	float: left;
-	width: 30%;
-	margin: 3% 0 0 6%;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-p.room_4_5text2{
-	float: right;
-	width: 30%;
-	margin: 3% 9% 0 0;
-	text-align: left;
-	letter-spacing: 5px;
-	font-size: 50%;
-}
-
-.room_4_5img{
-	overflow: hidden;
-}
-
+.contents-box{
+	width: 40%;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	margin-top: 30px;
+  }
 .page_5{
 	width: 100%;
 	margin: 5% auto;
